@@ -28,12 +28,14 @@
     - Solidity does not contain a change strategies function
     - Make sure that burn function is not suspicious
     - Make sure that each function performs exactly the same action as expected from it.
+    - Perform input validation under byzantine threat model
+    - Test dependency on external contracts/libraries and oracles
    ### Tax and Gas related functions
     - No redundant call, make sure the functions are optimized for less gas utilization
     - No Honey pot: Make sure that the token is sellable
     - Make sure that you can sell and buy tokens
     - Sell and Buy tax should remain less then 5%
-   ### top holders
+   ### Top holders
     - locked / burned token should be > 95%
     - top 5 to 10 holders should not have more then 5% of circulating supply
     

@@ -1,5 +1,14 @@
 # Smart contract bugs list
 
+## Solidity Security Pitfalls, Considerations and Recommendations
+https://docs.soliditylang.org/en/v0.8.0/security-considerations.html
+
+## Solidity Known Bug List:
+https://github.com/ethereum/solidity/blob/develop/docs/bugs.json
+
+## Other Bug list:
+https://www.researchgate.net/publication/334908571_Defects_and_Vulnerabilities_in_Smart_Contracts_a_Classification_using_the_NIST_Bugs_Framework
+
 ## Re-entrancy: 
 A reentrancy attack occurs when a function makes an external call to another untrusted contract. Then the untrusted contract makes a recursive call back to the original function in an attempt to drain funds. Find the best practices here
 eg: https://hackernoon.com/hack-solidity-reentrancy-attack
@@ -98,7 +107,5 @@ The delegate call is identical to a message call except that the code at the tar
 https://arxiv.org/ftp/arxiv/papers/1807/1807.03932.pdf
 Another type of vulnerable contract is the freezing ether contract. These contracts can receive ether and can send ether to other addresses via delegatecall. However, they themselves contain no functions to send ether to other address. In another word, they purely rely on the code of other contracts (via delegatecall) to send ether. When the contracts providing the ether manipulation code performs suicide or self-destruct operation, the calling contract has no way to send out ether and all its ether is frozen. The second round of attack on Parity wallet vulnerability is just because many wallet contracts can only rely on the parity library to manipulate their ether. When the parity library was changed to a contract through initialization and then killed by the hacker. All the ether within the wallets contracts relying on the parity library is frozen.
 
-## Bug list:
 
-https://www.researchgate.net/publication/334908571_Defects_and_Vulnerabilities_in_Smart_Contracts_a_Classification_using_the_NIST_Bugs_Framework
 
