@@ -11,6 +11,15 @@ https://docs.soliditylang.org/en/v0.8.0/security-considerations.html#formal-veri
 ### Resources listed by Secureum
 https://secureum.substack.com/p/smart-contract-security-resources
 
+### OnChain Investigation
+https://github.com/OffcierCia/On-Chain-Investigations-Tools-List
+
+### Investigation Flow
+https://officercia.mirror.xyz/BFzv17UwH6QG4q711NAljtSiP8eKR17daLjTdmAgbHw
+
+### Independent Investigators
+https://www.vice.com/en/article/xgd9zw/meet-the-blockchain-detectives-who-track-cryptos-hackers-and-scammers
+
 # Smart Contract - Bug Frameworks
 
 ### BF [ 6 ]. 
@@ -19,3 +28,4 @@ https://www.atlantis-press.com/journals/ijndc/125913574/view#:~:text=The%20Bugs%
 
 ### SmartBugs Framework
 https://arxiv.org/abs/2007.04771#:~:text=To%20address%20this%2C%20we%20present%20SmartBugs%2C%20an%20extensible,10%20tools%20and%20two%20datasets%20of%20Solidity%20contracts.
+
