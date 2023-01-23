@@ -9,6 +9,8 @@ https://github.com/ethereum/solidity/blob/develop/docs/bugs.json
 ## Other Bug list:
 https://www.researchgate.net/publication/334908571_Defects_and_Vulnerabilities_in_Smart_Contracts_a_Classification_using_the_NIST_Bugs_Framework
 
+https://github.com/sigp/solidity-security-blog#visibility
+
 ## Re-entrancy: 
 A reentrancy attack occurs when a function makes an external call to another untrusted contract. Then the untrusted contract makes a recursive call back to the original function in an attempt to drain funds. Find the best practices here
 eg: https://hackernoon.com/hack-solidity-reentrancy-attack
